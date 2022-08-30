@@ -3,7 +3,8 @@ from svglib.svglib import svg2rlg
 from reportlab.graphics import renderPM
 
 #representing string which cases your url
-string = 'https://www.instagram.com/mylnitsa.shop/'
+print('Enter the URL address:')
+string = input()
 #creating the QR
 url = pyqrcode.create(string)
 #QRcode saving
